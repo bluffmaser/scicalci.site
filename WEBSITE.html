@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    
+</head>
+<body style="background-image:url('Background.jpg');">
+
+    <style>
+    /* General Reset */
+body, html {
+    margin: 20;
+    padding: 20;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Background Image */
+.about-container {
+    background: url('Background.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    color: rgb(5, 160, 180);
+    text-align: center;
+}
+
+/* Header */
+.header h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+/* About Section */
+.about-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+/* Team Section */
+.team-section {
+    margin: 20px 0;
+}
+
+.team-section h2 {
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.team-member {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(24, 24, 24);
+    transition: transform 0.3s ease;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #0e0c0c;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #110f0f;
+}
+
+.team-member:hover {
+    transform: scale(2);
+}
+
+.team-member img:hover {
+    transform: rotate(10deg);
+}
+
+.menu {
+    display: flex;
+    justify-content:top;
+    gap: 20px;
+    margin-top: 20px;
+}
+  .menu-item {
+    padding: 15px 20px;
+    background-color: #2f62b4;
+    border: 1px solid #2f62b4;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #f7f7fc;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.menu-item:hover {
+  background-color: #0ccae7;
+}
+</style>
+
+</body>
+<body>
+    <div class="about-container">
+        <header class="header">
+            <h1>About Us</h1>
+        </header>
+        <section class="about-section">
+            <p>We are a passionate team dedicated to creating amazing solutions.</p>
+            <p>---SCIENTIFIC CALCULATOR---</p>
+        </section>
+        <section class="team-section">
+            <h2>Meet the Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="1.jpg" alt="Team Member 1">
+                    <h3>N.Praveen</h3>
+                    <p>Team lead</p>
+                </div>
+                <div class="team-member">
+                    <img src="3.PNG.jpg" alt="Team Member 2">
+                    <h3>karthake</h3>
+                    <p>progrom Designer</p>
+                </div>
+                <div class="team-member">
+                    <img src="2.jpg" alt="Team Member 3">
+                    <h3>N.nikhil</h3>
+                    <p>background editer</p>
+                </div>
+                <div class="team-member">
+                    <img src="team4.jpg" alt="Team Member 3">
+                    <h3>M.MOHITH</h3>
+                    <p>Designer</p>
+                </div>
+            
+            </div>
+        </section>
+    </div>
+    <div>
+        <div class="menu">
+            <a href="pbl.html" class="menu-item">BACK</a>
+          </div> 
+        <section class="about-section">
+            <p></p>
+        </section>
+    </div>
+    <script >
+        // Optional: Add a dynamic message or animation
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Welcome to the About Us page!");
+});
+    </script>
+</body>
+</html>
